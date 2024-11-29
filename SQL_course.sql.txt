@@ -1,9 +1,0 @@
-select job from emp;
-select distinct job from emp;
-
-select * from emp where job = 'MANAGER' and sal = 2450 and deptno = 10;
-SELECT * FROM EMP WHERE JOB != 'SALESMAN';
-SELECT * FROM EMP WHERE JOB != 'SALESMAN' AND SAL < 2500;
-SELECT * FROM EMP WHERE JOB != 'SALESMAN' AND SAL <= 3000 ORDER BY SAL;
-SELECT * FROM EMP WHERE COMM > SAL;
-SELECT * FROM EMP WHERE JOB != 'MANAGER' AND SAL > 2500 AND DEPTNO = 20;
